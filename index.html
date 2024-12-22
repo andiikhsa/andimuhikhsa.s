@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andi Muh. Ikhsa S - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header h2 {
+            font-size: 1.5rem;
+            margin: 0.5rem 0;
+            color: #FFD700;
+        }
+        nav {
+            text-align: center;
+            background: #333;
+            padding: 1rem 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #FFD700;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #FFD700;
+            border-bottom: 2px solid #FFD700;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .portfolio ul {
+            list-style: none;
+            padding: 0;
+        }
+        .portfolio li {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .portfolio li:hover {
+            transform: scale(1.05);
+        }
+        .portfolio video {
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact li {
+            margin: 10px 0;
+        }
+        .contact a {
+            color: #FFD700;
+            text-decoration: none;
+            transition: text-shadow 0.3s;
+        }
+        .contact a:hover {
+            text-shadow: 0 0 5px #FFD700;
+        }
+        .login {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .login h2 {
+            color: #FFD700;
+            margin-bottom: 1rem;
+        }
+        .login form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 80%;
+            max-width: 300px;
+            border: none;
+            border-radius: 5px;
+        }
+        .login button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #FFD700;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .login button:hover {
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <h2>Andi Muh. Ikhsa S</h2>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#login">Login</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Andi Muh. Ikhsa S. I am passionate about technology, coding, and design. I enjoy learning new skills and applying them to solve real-world problems. Welcome to my personal website!</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <ul>
+                <li>
+                    <strong>Project 1: Automatic Parking Barrier System With Servo motor And Arduino UNO</strong>
+                    <video controls>
+                        <source src="image/WhatsApp Video 2024-12-22 at 20.28.00_b8ff91ae.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </li>
+                <li>
+                    <strong>Project 2: Line Follower Robot</strong>
+                    <video controls>
+                        <source src="image/WhatsApp Video 2024-12-22 at 20.51.02_866be291.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you want to reach out, feel free to contact me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:a.muh.ikhsa.s@gmail.com">a.muh.ikhsa.s@gmail.com</a></li>
+                <li>Phone: +62 815-4337-1146</li>
+                <li>LinkedIn: <a href="#">https://www.linkedin.com/in/a-muh-ikhsa-s-431974336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></li>
+            </ul>
+        </section>
+        <section id="login" class="login">
+            <h2>Login</h2>
+            <form action="#" method="POST">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Andi Muh. Ikhsa S. All rights reserved.</p>
+    </footer>
+</body>
+</html>
